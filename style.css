@@ -1,0 +1,99 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+.container{
+    width: fit-content;
+    height: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 0.65rem 0.65rem 2px black, 0rem -0rem #000000;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+
+    
+    
+    
+
+}
+.ill{
+    border-radius: 10px;
+ 
+    max-width: 100%;
+    min-height: 150px;
+    
+    
+}
+h4{
+    background-color: hsl(47, 88%, 63%);
+    text-align: center;
+    color: black;
+    font-family: fig, sans-serif;
+   
+    letter-spacing: 1px;
+    line-height: 2em;
+    font-weight: normal;
+    font-size: 1.5;
+    margin: 0;
+    margin-top: 15px;
+   
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+    margin-right: 245px;
+    cursor: pointer;
+    &:hover {
+        background-color: hsla(47, 98%, 63%, .7) ;
+        padding: 1px 12px 1px 12px;
+        }
+}
+.date{
+    margin-right: 175px;
+color:hsl(0, 0%, 50%) ;
+font-family: figreg , sans-serif;
+}
+h2{
+    
+    margin: 0px;
+    margin-right: 60px;
+    font-family: fig,sans-serif;
+    color: #000000;
+    cursor: pointer;
+
+}
+h2:hover{
+    color: hsl(47, 88%, 63%);
+
+}
+#description{
+    font-family: figreg,sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: hsl(0, 0%, 50%);
+    
+}
+@font-face {
+   font-family: fig;
+                    src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format("truetype");
+}
+@font-face {
+    font-family: figreg;
+                     src: url('./assets/fonts/static/Figtree-semiBold.ttf') format("truetype");
+ }
+#picprof{
+    width: 30px;
+}
+#name{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 0fr 1fr 0fr;
+ font-family: fig,sans-serif;
+ cursor: pointer;
+ &:hover{
+    color: hsl(47, 88%, 63%);
+ }   
+}
